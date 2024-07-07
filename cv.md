@@ -1,6 +1,7 @@
 # Mariya Shusharina
 ## Contacts
 **e-mail:** mariya.shushar@gmail.com  
+**GitHub:** https://github.com/MariyaShusharina  
 **Discord:** masho_yolko
 ## About myself
 I had been self-studying HTML and different programming languages \(Pascal, Java, C++\) since high school. Tried my hand at game-development in Unity.
