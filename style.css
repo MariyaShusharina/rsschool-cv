@@ -108,8 +108,6 @@ i {
 
 .section-list {
 	margin: 0;
-	list-style: square;
-	display: list-item;
 }
 
 .section-link {
@@ -136,6 +134,8 @@ code {
 .list-item {
 	padding-left: -20px;
 	margin: 10px 0 0;
+	list-style: square;
+	display: list-item;
 	line-height: 1.2;
 	font-family: century gothic;
 }
