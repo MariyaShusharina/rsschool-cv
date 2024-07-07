@@ -108,7 +108,7 @@ i {
 
 .section-list {
 	list-style: none;
-	padding: 0;
+	padding: -20px;
 	margin: 0;
 }
 
