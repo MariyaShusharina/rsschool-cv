@@ -40,8 +40,6 @@ i {
 .nav {
 	margin: 0 auto;
 	background-color: powderblue;
-	display: flex;
-	justify-content: flex-start;
 }
 
 .nav-list {
