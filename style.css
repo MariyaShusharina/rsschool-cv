@@ -87,7 +87,7 @@ i {
 	margin: 20px;
 	padding-bottom: 30px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	justify-items: center;
 	align-items: center;
 	border-bottom: 4px solid;
