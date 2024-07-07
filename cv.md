@@ -18,6 +18,8 @@ function multiply(a, b){
   return a * b;
 }
 ```
+## Projects
+**CV:** https://mariyashusharina.github.io/rsschool-cv/
 ## Education
 HTML & PHP course at MSU.
 ## Languages
