@@ -108,6 +108,7 @@ i {
 
 .section-list {
 	margin: 0;
+	list-style: square;
 }
 
 .section-link {
