@@ -35,7 +35,6 @@ i {
 .container {
 	max-width: 1440px;
 	margin: 0 auto;
-	display: inline-flex;
 }
 .nav {
 	margin: 0 auto;
