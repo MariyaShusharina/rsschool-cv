@@ -85,7 +85,7 @@ i {
 
 .section-profile {
 	margin: 20px;
-	padding: 0;
+	padding-bottom: 20;
 	display: flex;
 	justify-content: space-around;
 	justify-items: center;
