@@ -13,7 +13,8 @@ body {
 header {
 	margin: 0;
 	padding-top: 0;
-	display: inline-flex;
+	display: flex;
+	align-items: flex-start;
 }
 
 p {
