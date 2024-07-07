@@ -8,7 +8,8 @@ I had been self-studying HTML and different programming languages \(Pascal, Java
 
 I am willing to learn HTML and JavaScript on a proficient level to find a job as front-end developress.
 ## Skills
-HTML
+HTML  
+CSS
 ## Code example
 "Multiply" Kata from Codewars: *This code does not execute properly. Try to figure out why.*
 
