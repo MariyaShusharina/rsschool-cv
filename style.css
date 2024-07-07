@@ -10,11 +10,6 @@ body {
 	background-color: powderblue;
 }
 
-h1 {
-	font-family: century gothic;
-	color: 446677;
-}
-
 p {
 	font-family: century gothic;
 	color: black;
@@ -34,6 +29,7 @@ p {
 	align-items: center;
 	list-style: none;
 }
+
 .nav-item {
 	
 }
@@ -41,30 +37,42 @@ p {
 .nav-link {
 	padding: 0 20px;
 	line-height: 50px;
-	transition: 0.3s;
+	font-family: century gothic;
+	color: #446677;
+	text-decoration: none;
+	transition: color 0.3s;
 }
 
-	.nav-link:link {
-		text-decoration: none;
-	}
-
-	.nav-link:visited {
-		text-decoration: none;
-	}
-
-	.nav-link:hover {
-		text-decoration: underline;
-	}
-
-	.nav-link:active {
-		text-decoration: underline;
-	}
+.nav-link:hover {
+	color: black;
+}
 
 .section {
-	
+	padding: 50px;
+}
+
+.section-profile {
+	padding: 50px;
+	display: flex;
+	justify-content: space-around;
+	justify-items: center;
+	align-items: center;
 }
 
 .section-title {
+	font-size: 24pt;
 	font-family: century gothic;
-	color: 446677;
+	color: #446677;
+}
+
+.section-profile-title {
+	padding: 50px;
+	display: inline-blok;
+	font-size: 24pt;
+	font-family: century gothic;
+	color: #446677;
+}
+
+.section-avatar {
+	border-radius: 50%;
 }
