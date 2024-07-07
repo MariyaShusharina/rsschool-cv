@@ -36,9 +36,12 @@ i {
 	max-width: 1440px;
 	margin: 0 auto;
 }
+
 .nav {
 	margin: 0 auto;
 	background-color: powderblue;
+	display: flex;
+	justify-content: flex-start;
 }
 
 .nav-list {
