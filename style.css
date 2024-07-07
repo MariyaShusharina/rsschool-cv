@@ -6,13 +6,31 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-  
-	background-color: powderblue;
+	
+	background-color: #ddeeee;
 }
 
 p {
+	margin: 20px 0;
+	line-height: 1.2;
 	font-family: century gothic;
 	color: black;
+}
+b {
+	font-family: century gothic;
+	font-weight: bold;
+}
+
+i {
+	font-family: century gothic;
+	font-style: italic;
+}
+
+.divider {
+	width: 95%;
+	height: 2px;
+	margin: 0 25px auto;
+	background-color: #99bccc;
 }
 
 .container {
@@ -21,6 +39,7 @@ p {
 }
 .nav {
 	
+	background-color: powderblue;
 }
 
 .nav-list {
@@ -31,16 +50,18 @@ p {
 }
 
 .nav-item {
-	
+	margin: 10px 0;
 }
 
 .nav-link {
 	padding: 0 20px;
 	line-height: 50px;
+	font-size: 14pt;
 	font-family: century gothic;
 	color: #446677;
 	text-decoration: none;
-	transition: color 0.3s;
+	transition: color 0.5s;
+	cursor: pointer;
 }
 
 .nav-link:hover {
@@ -68,6 +89,7 @@ p {
 .section-profile-title {
 	padding: 50px;
 	display: inline-blok;
+	text-align: center;
 	font-size: 24pt;
 	font-family: century gothic;
 	color: #446677;
@@ -75,4 +97,35 @@ p {
 
 .section-avatar {
 	border-radius: 50%;
+}
+
+.section-list {
+	list-style: none;
+}
+
+.section-link {
+	font-family: century gothic;
+	color: black;
+	text-decoration: none;
+	transition: color 0.5s;
+	cursor: pointer;
+}
+
+.section-link:hover {
+	color: #446677;
+}
+
+code {
+	display: block;
+	padding: 20px;
+	border: 1px solid #446677;
+	background-color: #ccdddd;
+	font-family: monospace;
+	font-size: 14pt;
+}
+
+.list-item {
+	margin: 10px 0 0;
+	line-height: 1.2;
+	font-family: century gothic;
 }
