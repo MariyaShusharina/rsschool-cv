@@ -10,6 +10,10 @@ body {
 	background-color: #ddeeee;
 }
 
+header {
+	height: 140px;
+}
+
 p {
 	margin: 20px 0;
 	line-height: 1.2;
