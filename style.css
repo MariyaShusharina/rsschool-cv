@@ -11,7 +11,8 @@ body {
 }
 
 header {
-	padding-top: -20px;
+	margin: 0;
+	padding-top: 0;
 }
 
 p {
