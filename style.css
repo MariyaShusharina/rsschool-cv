@@ -11,7 +11,7 @@ body {
 }
 
 header {
-	height: 140px;
+	padding-top: -20px;
 }
 
 p {
