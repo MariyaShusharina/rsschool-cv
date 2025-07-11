@@ -3,89 +3,155 @@
 	<head>
 		<title>cv</title>
 		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1, minimum-scale=1" name="viewport">
 		<link rel="stylesheet" href="style.css">
 		<link rel="icon" href="./assets/img/favicon.ico">
 	</head>
 	<body>
-		<header class="header">
-			<div class="container">
-				<nav class="nav">
-					<ul class="nav-list">
-						<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-						<li class="nav-item"><a href="#about-myself" class="nav-link">About myself</a></li>
-						<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-						<li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
-						<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-						<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-						<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-					</ul>
-				</nav>
+		<header>
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+					<li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+					<li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+					<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+					<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+				</ul>
+			</nav>
+			<div class="burger-menu">
+				<input id="burger-checkbox" type="checkbox">
+				<span class="burger-line line-one"></span>
+				<span class="burger-line line-two"></span>
 			</div>
 		</header>
-		<main class="main-container">
-			<div class="container">
-				<section class="section-profile" id="profile">
-					<img class="section-avatar" src="./assets/img/avatar_pic.jpg" alt="Avatar" width="200" height="200">
-					<h1 class="section-profile-title">Mariya Shusharina</h1>
-				</section>
-				<section class="section" id="contacts">
-					<h2 class="section-title">Contacts</h2>
-					<ul class="section-list">
-						<li class="list-item"><b>e-mail: </b><a class="section-link" href="mailto:mariya.shushar@gmail.com">mariya.shushar@gmail.com</a></li>
-						<li class="list-item"><b>GitHub: </b><a class="section-link" href="https://github.com/MariyaShusharina" target="_blank">https://github.com/MariyaShusharina</a></li>
-						<li class="list-item"><b>Discord: </b>masho_yolko</li>
-					</ul>
-				</section>
-				<section class="section" id="about-myself">
-					<h2 class="section-title">About myself</h2>
-					<p>I had been self-studying HTML and different programming languages (Pascal, Java, C++) since high school. Tried my hand at game-development in Unity.</p>
-					<p>I am willing to learn HTML and JavaScript on a proficient level to find a job as front-end developress.</p>
-				</section>
-				<section class="section" id="skills">
-					<h2 class="section-title">Skills</h2>
-					<ul class="section-list">
-						<li class="list-item">HTML</li>
-						<li class="list-item">CSS</li>
-					</ul>
-				</section>
-				<section class="section" id="code-example">
-					<h2 class="section-title">Code example</h2>
-					<p>"Multiply" Kata from Codewars: <i>This code does not execute properly. Try to figure out why.</i></p>
-					<p>Solution:</p>
-					<pre>
-						<code>function multiply(a, b){
+		<main>
+			<section class="section-profile" id="profile">
+				<img class="section-avatar" src="./assets/img/avatar_pic.jpg" alt="Avatar" width="200" height="200">
+				<h1 class="section-profile-title">Mariya Shusharina</h1>
+			</section>
+			<section class="section" id="contacts">
+				<h2 class="section-title">Contacts</h2>
+				<ul class="section-list">
+					<li class="list-item"><b>e-mail: </b><a class="section-link" href="mailto:mariya.shushar@gmail.com">mariya.shushar@gmail.com</a></li>
+					<li class="list-item"><b>LinkedIn: </b><a class="section-link" href="https://www.linkedin.com/in/mariia-shusharina/" target="_blank">mariia-shusharina</a></li>
+					<li class="list-item"><b>GitHub: </b><a class="section-link" href="https://github.com/MariyaShusharina" target="_blank">MariyaShusharina</a></li>
+					<li class="list-item"><b>Discord: </b>masho_yolko</li>
+				</ul>
+			</section>
+			<section class="section" id="about-me">
+				<h2 class="section-title">About me</h2>
+				<p>I had been self-studying HTML and different programming languages (Pascal, Java, C++) since high school. Tried my hand at game-development in Unity.</p>
+				<p>I am willing to learn HTML and JavaScript on a proficient level to find a job as a Front-end Developress.</p>
+				<p>After finishing the first flow at RS School, I mainly specialize in creating Vanilla JavaScript and TypeScript web applications.</p>
+			</section>
+			<section class="section" id="skills">
+				<h2 class="section-title">Skills</h2>
+				<ul class="section-list">
+					<li class="list-item"><b>Web-development: </b>HTML, CSS, SCSS, JavaScript, TypeScript, React.js, Node.js</li>
+					<li class="list-item"><b>Version Control Systems: </b>Git, GitHub, GitLab</li>
+					<li class="list-item"><b>API Integration: </b>Fetch API, JSON, REST, GraphQL</li>
+					<li class="list-item"><b>Responsive Design: </b>Media Queries, Flexbox, CSS Grid</li>
+					<li class="list-item"><b>Packaging Tools: </b>npm, Vite, Webpack</li>
+					<li class="list-item"><b>Designing Tools: </b>Figma, Adobe Photoshop</li>
+					<li class="list-item"><b>Testing: </b>Chrome Dev-tools, Manual Testing, Vitest</li>
+					<li class="list-item"><b>Collaboration: </b>Scrum, Agile, Jira, Monday, Cross-check (Crosscheck), Code Review</li>
+					<li class="list-item"><b>Management Platform: </b>ServiceNow</li>
+				</ul>
+			</section>
+			<section class="section" id="code-example">
+				<h2 class="section-title">Code example</h2>
+				<p>"Multiply" Kata from Codewars: <i>This code does not execute properly. Try to figure out why.</i></p>
+				<p>Solution:</p>
+				<pre>
+					<code>function multiply(a, b){   
   return a * b;
 }</code>
-					</pre>
-				</section>
-				<section class="section" id="projects">
-					<h2 class="section-title">Projects</h2>
-					<ul class="section-list">
-						<li class="list-item"><b>CV: </b><a class="section-link" href="https://mariyashusharina.github.io/rsschool-cv/" target="_blank">https://mariyashusharina.github.io/rsschool-cv/</a></li>
-					</ul>
-				</section>
-				<section class="section" id="education">
-					<h2 class="section-title">Education</h2>
-					<ul class="section-list">
-						<li class="list-item">HTML &amp; PHP course at MSU.</li>
-					</ul>
-				</section>
-				<section class="section" id="languages">
-					<h2 class="section-title">Languages</h2>
-					<ul class="section-list">
-						<li class="list-item"><b>English </b>&ndash; Upper-intermediate level (6 or B2.1 by Common European Framework) according to the Oxford Center in Podgorica.</li>
-						<li class="list-item"><b>Russian </b>&ndash; Native.</li>
-					</ul>
-				</section>
-			</div>
+				</pre>
+			</section>
+			<section class="section" id="projects">
+				<h2 class="section-title">Projects</h2>
+				<ul class="section-list projects-list">
+					<!--
+					<li class="list-item">
+						<b>CV: </b>
+						<a class="section-link" href="https://mariyashusharina.github.io/rsschool-cv/" target="_blank">
+							rsschool-cv
+						</a>
+					</li>
+					-->
+					<li class="list-item">
+						<div class="project-item">
+							<b>Cristmas-Shop: </b>
+							<a class="section-link" href="https://mariyashusharina.github.io/RS-School-stage1/christmas-shop/home.html" target="_blank">
+								<img src="./assets/img/thumbnails/xmas-shop.png" alt="Cristmas-Shop" class="project-thumb">
+							</a>
+						</div>
+					</li>
+					<li class="list-item">
+						<div class="project-item">
+							<b>The Snake Game: </b>
+							<a class="section-link" href="https://mariyashusharina.github.io/RS-School-stage0/random-game/" target="_blank">
+								<img src="./assets/img/thumbnails/snake-game.png" alt="Snake Game" class="project-thumb">
+							</a>
+						</div>
+					</li>
+					<li class="list-item">
+						<div class="project-item">
+							<b>API Image Gallery: </b>
+							<a class="section-link" href="https://mariyashusharina.github.io/RS-School-stage0/image-gallery" target="_blank">
+								<img src="./assets/img/thumbnails/gallery.png" alt="Image Gallery" class="project-thumb">
+							</a>
+						</div>
+					</li>
+					<li class="list-item">
+						<div class="project-item">
+							<b>Audio Player: </b>
+							<a class="section-link" href="https://mariyashusharina.github.io/AudioPlayer/index.html" target="_blank">
+								<img src="./assets/img/thumbnails/audio-player.png" alt="Audio Player" class="project-thumb">
+							</a>
+						</div>
+					</li>
+				</ul>
+			</section>
+			<section class="section" id="education">
+				<h2 class="section-title">Education</h2>
+				<ul class="section-list">
+					<li class="list-item">
+						<b>"HTML &amp; PHP" course</b> | 
+						<i>Lomonosov Moscow State University</i> | 
+						09/2015 - 05/2016
+					</li>
+					<li class="list-item">
+						<b>JavaScript / Front-end</b> | 
+						<i>The Rolling Scopes School</i> | 
+						06/2024 - 10/2024
+					</li>
+					<li class="list-item">
+						<b>ServiceNow developer (Grade: 100%)</b> | 
+						<i>EPAM campus</i> | 
+						01/2025 - 01/2025
+					</li>
+					<li class="list-item">
+						<b>Computational Mathematics and Cybernetics</b> | 
+						<i> Lomonosov Moscow State University</i> | 
+						09/2017 - 01/2018
+					</li>
+				</ul>
+			</section>
+			<section class="section" id="languages">
+				<h2 class="section-title">Languages</h2>
+				<ul class="section-list">
+					<li class="list-item"><b>English </b>&ndash; Upper-intermediate (B2).</li>
+					<li class="list-item"><b>Russian </b>&ndash; Native.</li>
+				</ul>
+			</section>
 		</main>
-		<footer class="footer">
-			<div class="container">
-				<div class="footer-container">
-					<div><p class="footer-text">&copy; 2024 <a class="footer-link" href="https://github.com/MariyaShusharina" target="_blank">MariyaShusharina</a></p></div>
-					<div><a class="footer-link" href="https://rs.school/courses/javascript-ru" target="_blank"><img src="./assets/svg/rss_logo.svg" alt="RS School" height="50"></a></div>
-				</div>
-			</div>
+		<footer>
+			<div><p class="footer-text">&copy; 2024 - 2025 <a class="footer-link" href="https://github.com/MariyaShusharina" target="_blank">MariyaShusharina</a></p></div>
+			<div><a class="footer-link" href="https://rs.school/courses/javascript-ru" target="_blank"><img src="./assets/svg/rss_logo.svg" alt="RS School" height="50"></a></div>
 		</footer>
+		<script src="scripts.js"></script>
 	</body>
 </html>
