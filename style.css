@@ -15,13 +15,21 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: center;
 	
 	background-color: #ddeeee;
 }
 
+header,
+main,
+footer {
+	width: 100%;
+	max-width: 1920px;
+}
+
 header {
 	margin: 0;
-	padding: 0 40px;
+	padding: 0;
 	display: flex;
 	background-color: powderblue;
 }
@@ -32,6 +40,7 @@ p {
 	font-family: century gothic;
 	color: black;
 }
+
 b {
 	font-family: century gothic;
 	font-weight: bold;
@@ -49,6 +58,7 @@ i {
 
 .nav {
 	margin: 0 auto;
+	padding: 0 40px;
 }
 
 .burger-menu {
@@ -220,18 +230,27 @@ code {
 }
 
 footer {
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: powderblue;
+}
+
+.footer-content {
 	padding: 0 20px;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	background-color: powderblue;
 }
 
 .footer-text {
 	padding: 0 20px;
 	font-size: 14pt;
 	font-family: century gothic;
+	text-align: center;
 	color: #446677;
 }
 
@@ -328,6 +347,10 @@ footer {
 	code {
 		padding: 10px;
 		font-size: 12pt;
+	}
+
+	.footer-content {
+		justify-content: center;
 	}
 
 	.footer-link,
